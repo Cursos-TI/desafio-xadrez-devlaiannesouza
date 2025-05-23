@@ -21,6 +21,8 @@ int main() {
     }
 
     // Movimento da Rainha : 8 casas a Esquerda (usando do-while)
+    // A variavel i já foi utilizada no loop for e while, reutilizar estava dando erro. 
+    //então irei utilizar a variavel j.
 
     int casasRainha = 8;
     int j = 0;
@@ -28,7 +30,7 @@ int main() {
     do {
         printf ("Esquerda \n");
         j++;
-    }while (j < casasRainha);
+    }while (j <casasRainha);
 
     return 0;
 }
